@@ -49,7 +49,7 @@ You can set the following attributes:
 * **format** (defaults '%Y-%m-%d')
 * **filter** can be one the following:
 	* SERVER_UTC convert a date to UTC based on the server timezone
-	* USER_UTC convert a date to UTC based on the server timezone
+	* USER_UTC convert a date to UTC based on the user timezone
 
 ### captcha
 
@@ -81,7 +81,7 @@ You can set the following attributes:
 * **readonly** is this a read only field?
 * **disabled** Is this a disabled form element?
 * **multiple** Should we allow multiple selections?
-* **onchange** onchange Javascript event
+* **onchange** onchange JavaScript event
 
 ### editor
 
@@ -116,14 +116,13 @@ You can set the following attributes:
 
 ### groupedlist
 
-Displays a grouped drop down list.
+This will display a grouped drop down list.
 
 You can set the following attributes:
 
-* class CSS class (default '')
+* **class** CSS class (default '')
 
 This element supports sub-elements organised in `<group>` and `<option>` tags. For more information please consult the documentation of Joomla!'s JFormFieldGroupedList element.
-
 
 ### hidden
 
@@ -133,11 +132,11 @@ You can set no attributes other than the common ones.
 
 ### image
 
-This is an alias for the "media" field type.
+This is an alias for the "media" field type (see below).
 
 ### imagelist
 
-This will a media selection field showing images from a specified folder.
+This will display a media selection field showing images from a specified folder.
 
 You can set the following attributes:
 
