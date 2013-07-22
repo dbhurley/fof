@@ -53,7 +53,7 @@ The following additional attributes apply to all header fields rendering a drop-
 * **source_class** (required) The name of the PHP class to use, e.g. `FoobarHelperMydata`
 * **source_method** (required) The static method of the PHP class to use, e.g. `getSomeFoobarData`
 * **source_key** (optional) If you are using an array of indexed arrays, this is the key of the indexed array that contains the key of the drop-down option.
-* **source_key** (optional) If you are using an array of indexed arrays, this is the key of the indexed array that contains the value (description) of the drop-down option.
+* **source_value** (optional) If you are using an array of indexed arrays, this is the key of the indexed array that contains the value (description) of the drop-down option.
 * **source_translate** (optional) By default all values are being translated, i.e. fed through JText::_(). If you don't want that, set this attribute to "false".
 
 
